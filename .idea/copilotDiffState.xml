@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Generics In Java/src/CastingExample.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Generics In Java/src/CastingExample.java" />
+              <option name="originalContent" value="// Demonstrates how casting works with generics in Java&#10;public class CastingExample {&#10;&#10;    // A generic method that accepts any type and returns it as a String&#10;    public static &lt;T&gt; String castToString(T input) {&#10;        // Casting the input to String&#10;        return (String) input;&#10;    }&#10;&#10;    // A generic method that accepts any type and returns it as an Integer&#10;    public static &lt;T&gt; Integer castToInteger(T input) {&#10;        // Casting the input to Integer&#10;        return (Integer) input;&#10;    }&#10;&#10;    // A generic method that accepts any type and returns it as a Double&#10;    public static &lt;T&gt; Double castToDouble(T input) {&#10;        // Casting the input to Double&#10;        return (Double) input;&#10;    }&#10;}" />
+              <option name="updatedContent" value="// Demonstrates how casting works with generics in Java&#10;public class CastingExample {&#10;&#10;    // A generic method that accepts any type and returns it as a String&#10;    public static &lt;T&gt; String castToString(T input) {&#10;        // Casting the input to String&#10;        return (String) input;&#10;    }&#10;&#10;    // A generic method that accepts any type and returns it as an Integer&#10;    public static &lt;T&gt; Integer castToInteger(T input) {&#10;        // Casting the input to Integer&#10;        return (Integer) input;&#10;    }&#10;&#10;    // A generic method that accepts any type and returns it as a Double&#10;    public static &lt;T&gt; Double castToDouble(T input) {&#10;        // Casting the input to Double&#10;        return (Double) input;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
