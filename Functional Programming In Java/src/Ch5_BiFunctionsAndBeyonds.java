@@ -77,6 +77,26 @@ public class Ch5_BiFunctionsAndBeyonds {
         System.out.println("Max of 10 and 20: " + max.apply(10, 20));
     }
 
+    // Example 7: Using BiFunction Interface
+    // Demonstrates a BiFunction to calculate the product of two numbers.
+    public static void biFunctionProductExample() {
+        BiFunction<Integer, Integer, Integer> product = (a, b) -> a * b;
+        System.out.println("Product of 6 and 7: " + product.apply(6, 7)); // Output: 42
+    }
+
+    // Example 8: Implementing BiFunction Interface
+    // Demonstrates creating a custom implementation of the BiFunction interface.
+    public static void customBiFunctionImplementationExample() {
+        BiFunction<Integer, Integer, String> customBiFunction = new BiFunction<>() {
+            @Override
+            public String apply(Integer a, Integer b) {
+                return "Sum: " + (a + b);
+            }
+        };
+
+        System.out.println(customBiFunction.apply(8, 12)); // Output: Sum: 20
+    }
+
     public static void main(String[] args) {
         // Demonstrating Basic Usage of BiFunction
         basicBiFunctionExample();
@@ -95,5 +115,11 @@ public class Ch5_BiFunctionsAndBeyonds {
 
         // Demonstrating BinaryOperator
         binaryOperatorExample();
+
+        // Demonstrating BiFunction Product Example
+        biFunctionProductExample();
+
+        // Demonstrating Custom BiFunction Implementation
+        customBiFunctionImplementationExample();
     }
 }

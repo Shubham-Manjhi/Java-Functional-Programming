@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Functional Programming/Functional Programming.iml" filepath="$PROJECT_DIR$/Functional Programming/Functional Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functional Programming In Java/Functional Programming In Java.iml" filepath="$PROJECT_DIR$/Functional Programming In Java/Functional Programming In Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-Functional-Programming.iml" filepath="$PROJECT_DIR$/.idea/Java-Functional-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream In Java/Stream In Java.iml" filepath="$PROJECT_DIR$/Stream In Java/Stream In Java.iml" />
     </modules>
   </component>
 </project>
